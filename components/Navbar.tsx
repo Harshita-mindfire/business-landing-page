@@ -90,7 +90,7 @@ export default function Navbar() {
             fontWeight={600}
             color={"white"}
             bg={"pink.400"}
-            href={"#"}
+            href="signup"
             _hover={{
               bg: "pink.300",
             }}
@@ -299,8 +299,8 @@ const NAV_ITEMS: Array<NavItem> = [
     ],
   },
   {
-    label: "Learn Design",
-    href: "#",
+    label: "Contact",
+    href: "/contact",
   },
   {
     label: "Hire Designers",
